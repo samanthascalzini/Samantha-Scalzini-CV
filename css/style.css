@@ -1,95 +1,195 @@
-body {
+ @import url(https://db.onlinewebfonts.com/c/f7d34c9e4c3102c89048d775c27a78f3?family=The+Seasons+Bold);
 
-  }
+  @font-face {
+    font-family: "The Seasons Bold";
+    src: url("https://db.onlinewebfonts.com/t/f7d34c9e4c3102c89048d775c27a78f3.eot");
+    src: url("https://db.onlinewebfonts.com/t/f7d34c9e4c3102c89048d775c27a78f3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f7d34c9e4c3102c89048d775c27a78f3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f7d34c9e4c3102c89048d775c27a78f3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f7d34c9e4c3102c89048d775c27a78f3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f7d34c9e4c3102c89048d775c27a78f3.svg#The Seasons Bold")format("svg");
+}
+.old-standard-tt-regular {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+    background-color: #fff5e4;
+    text-decoration: none;
+}
 
 /****************   Nav Section **********************/
 nav {
-	
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+	background-color: #603fa8;
+  color: white;
+  align-items: center;
+  font-family: "The Seasons Bold";
+
 }
 
 /***********************  Footer Section   **************************/
 footer {
-	
+  display: flex;
+  justify-content: center;
+	background-color: #dcc0e3;
+  align-items: center;
+  text-decoration: none;
 }
 
 /*********** Splash Page ************************/
+
 header {
+display: flex;
+justify-content: center;
+flex-direction: column;
+
 
 }
 
 header h1 {
+font-family: "The Seasons Bold";
+display: flex;
+justify-content: center;
+  color: #603fa8;
+}
+
+header img{
+  display: flex;
+  justify-content: center;
+  border:2px solid black;
+  border-radius: 50%;
   
 }
 
-header img {
-}
 
 .address {
- 
+ font-family: "Tenor Sans";
+ display: flex;
+ justify-content: center;
+ color: #603fa8;
 }
 
 .tagline {
-  
+  font-family: "Old Standard TT";
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: black;
 }
 
 /************* Sections ********************/
 hr {
-
+ 
 }
 
-section h3 {
-  
+section h2 {
+   font-family: "Tenor Sans";
+  color: #603fa8;
+
 }
 
 section dl {
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 section ul {
-
+  font-family: "Old Standard TT";
 }
 
 section a {
-
+text-decoration: none;
+color: #603fa8;
 }
 
 section a:hover {
+  text-decoration: underline;
 }
 
 /**************   Projects   *****************/
 .three-col {
-	
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+}
+
+.three-col h3 {
+   display: flex;
+ justify-self: center;
+  font-family: "Tenor Sans";
+  color: #603fa8;
+  gap: 10px;
+
 }
 
 .card img {
-
+  display: flex;
+ justify-self: center;
 }
 
 .card {
-  
+  border: 1px solid #603fa8;
+  margin: 5px;
 }
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
     nav {
-      
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
     }
 
     .three-col {
-      
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;  
     }
 }
 
 /**************   Contact Page   *****************/
 .one-col {
-
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  max-width: 600px;
 }
 
 input {
-  
+  font-family: "Tenor Sans";
 
 }
 
 textarea {
-   
+    font-family: "Tenor Sans";
+    color: #603fa8;
 }
