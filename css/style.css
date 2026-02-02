@@ -49,9 +49,12 @@ nav {
   color: white;
   align-items: center;
   font-family: "The Seasons Bold";
-
+  padding: 10px;
 }
-
+nav a {
+  color: white;
+  text-decoration: none;
+}
 /***********************  Footer Section   **************************/
 footer {
   display: flex;
@@ -65,22 +68,18 @@ footer {
 
 header {
 display: flex;
-justify-content: center;
 flex-direction: column;
-
+justify-content: center;
+align-items: center;
 
 }
 
 header h1 {
 font-family: "The Seasons Bold";
-display: flex;
-justify-content: center;
   color: #603fa8;
 }
 
 header img{
-  display: flex;
-  justify-content: center;
   border:2px solid black;
   border-radius: 50%;
   
@@ -110,21 +109,24 @@ hr {
 section h2 {
    font-family: "Tenor Sans";
   color: #603fa8;
-
+  padding: 10px;
 }
 
 section dl {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
 }
 
 section ul {
   font-family: "Old Standard TT";
+  margin: 10px;
 }
 
 section a {
 text-decoration: none;
 color: #603fa8;
+padding: 10px;
 }
 
 section a:hover {
